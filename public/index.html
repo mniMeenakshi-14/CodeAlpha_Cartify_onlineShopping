@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Cartify — Shop Smart</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="logo" href="#">Cartify<span>.</span></a><div class="search"><input id="search" placeholder="Search products...">🔍</div>
+<nav><button onclick="openAuth()">Account</button><button onclick="showOrders()">Orders</button><button class="cartBtn" onclick="openCart()">🛒 <b id="cartCount">0</b></button></nav></header>
+<section class="hero"><div><p class="eyebrow">WELCOME TO CARTIFY</p><h1>Everything you need,<br><span>one cart away.</span></h1><p>Discover electronics, fashion, home essentials, fitness gear and more.</p><button class="primary" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Shop now →</button></div>
+<div class="heroCard"><div class="floating">✦</div><div class="bag">🛍️</div><h3>Smart shopping starts here</h3><p>36+ products • Secure checkout • Fast experience</p></div></section>
+<div class="categories"><button class="active" onclick="filterCat('All',this)">All</button><button onclick="filterCat('Electronics',this)">Electronics</button><button onclick="filterCat('Fashion',this)">Fashion</button><button onclick="filterCat('Home',this)">Home</button><button onclick="filterCat('Fitness',this)">Fitness</button><button onclick="filterCat('Travel',this)">Travel</button></div>
+<main><div class="sectionTitle"><div><p class="eyebrow">OUR COLLECTION</p><h2 id="heading">Popular products</h2></div><span id="count"></span></div><div id="products" class="grid"></div></main>
+<div id="modal" class="modal hidden"><div class="modalBox" id="modalContent"></div></div>
+<footer><b>Cartify.</b><span>Simple shopping. Smarter choice.</span></footer>
+<script src="app.js"></script></body></html>
