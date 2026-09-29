@@ -1,0 +1,14 @@
+{% extends "store/base.html" %}
+{% block title %}Order Placed{% endblock %}
+{% block content %}
+    {% if order.status == "paid" %}
+        <h1>🎉 Payment Successful!</h1>
+    {% else %}
+        <h1>Order Received</h1>
+        <p class="muted">Payment status: {{ order.get_status_display }}</p>
+    {% endif %}
+    <p>Thanks, {{ order.full_name }} — your order #{{ order.id }} has been placed.</p>
+    <p><strong>Total: ₹{{ order.total_price }}</strong></p>
+    <p>Shipping to: {{ order.address }}</p>
+    <a href="{% url 'product_list' %}" class="btn">Continue Shopping</a>
+{% endblock %}

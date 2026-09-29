@@ -1,0 +1,40 @@
+{% extends "store/base.html" %}
+{% block title %}Complete Payment{% endblock %}
+{% block content %}
+    <div class="mock-gateway">
+        <div class="mock-banner">
+            🧪 DEMO MODE — this is a simulated payment page, no real gateway or money is involved.
+        </div>
+
+        <h1>Complete Your Payment</h1>
+        <p>Order #{{ order.id }} — Total: <strong>₹{{ order.total_price }}</strong></p>
+
+        <div class="mock-card-form">
+            <label>Card Number</label>
+            <input type="text" value="4111 1111 1111 1111" disabled>
+
+            <div class="mock-card-row">
+                <div>
+                    <label>Expiry</label>
+                    <input type="text" value="12/29" disabled>
+                </div>
+                <div>
+                    <label>CVC</label>
+                    <input type="text" value="123" disabled>
+                </div>
+            </div>
+
+            <form method="post" action="{% url 'mock_payment_process' order.id %}">
+                {% csrf_token %}
+                <input type="hidden" name="action" value="success">
+                <button type="submit" class="btn">Pay ₹{{ order.total_price }}</button>
+            </form>
+
+            <form method="post" action="{% url 'mock_payment_process' order.id %}">
+                {% csrf_token %}
+                <input type="hidden" name="action" value="fail">
+                <button type="submit" class="link-button remove">Simulate Failed Payment</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

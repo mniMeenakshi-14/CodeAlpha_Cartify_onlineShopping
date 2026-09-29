@@ -1,0 +1,8 @@
+{% extends "store/base.html" %}
+{% block title %}Payment Cancelled{% endblock %}
+{% block content %}
+    <h1>Payment Cancelled</h1>
+    <p>Your payment for order #{{ order.id }} was cancelled — no money was charged, and the items have been returned to stock.</p>
+    <a href="{% url 'cart_detail' %}" class="btn">Back to Cart</a>
+    <a href="{% url 'product_list' %}" class="btn">Continue Shopping</a>
+{% endblock %}

@@ -1,0 +1,7 @@
+[
+  {"model": "store.category", "pk": 1, "fields": {"name": "Electronics", "slug": "electronics"}},
+  {"model": "store.category", "pk": 2, "fields": {"name": "Accessories", "slug": "accessories"}},
+  {"model": "store.category", "pk": 3, "fields": {"name": "Home & Kitchen", "slug": "home-kitchen"}},
+  {"model": "store.category", "pk": 4, "fields": {"name": "Books & Stationery", "slug": "books-stationery"}},
+  {"model": "store.category", "pk": 5, "fields": {"name": "Fashion", "slug": "fashion"}}
+]

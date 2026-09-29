@@ -1,0 +1,55 @@
+{% extends "store/base.html" %}
+{% block title %}Complete Payment{% endblock %}
+{% block content %}
+    <h1>Complete Your Payment</h1>
+    <p>Order #{{ order.id }} — Total: <strong>₹{{ order.total_price }}</strong></p>
+    <p class="muted">A Razorpay payment window should open automatically. If it doesn't, click the button below.</p>
+
+    <button id="rzp-button" class="btn">Pay ₹{{ order.total_price }}</button>
+
+    <!-- Hidden form used to POST Razorpay's response to our server for verification -->
+    <form id="verify-form" action="{% url 'payment_verify' order.id %}" method="post" style="display:none;">
+        {% csrf_token %}
+        <input type="hidden" name="razorpay_order_id" id="id_razorpay_order_id">
+        <input type="hidden" name="razorpay_payment_id" id="id_razorpay_payment_id">
+        <input type="hidden" name="razorpay_signature" id="id_razorpay_signature">
+    </form>
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var options = {
+            "key": "{{ razorpay_key_id }}",
+            "amount": "{{ amount_in_paise }}",
+            "currency": "INR",
+            "name": "Cartify",
+            "description": "Order #{{ order.id }}",
+            "order_id": "{{ razorpay_order_id }}",
+            "prefill": {
+                "email": "{{ user_email }}"
+            },
+            "handler": function (response) {
+                document.getElementById("id_razorpay_order_id").value = response.razorpay_order_id;
+                document.getElementById("id_razorpay_payment_id").value = response.razorpay_payment_id;
+                document.getElementById("id_razorpay_signature").value = response.razorpay_signature;
+                document.getElementById("verify-form").submit();
+            },
+            "modal": {
+                "ondismiss": function () {
+                    window.location.href = "{% url 'payment_failed' order.id %}";
+                }
+            },
+            "theme": {
+                "color": "#2563eb"
+            }
+        };
+        var rzp = new Razorpay(options);
+        document.getElementById("rzp-button").onclick = function (e) {
+            rzp.open();
+            e.preventDefault();
+        };
+        // Auto-open on page load for a smoother flow
+        window.onload = function () {
+            rzp.open();
+        };
+    </script>
+{% endblock %}
