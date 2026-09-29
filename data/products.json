@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 59.99,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium wireless headphones from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 79.99,
+    "stock": 52,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium smart watch from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 39.99,
+    "stock": 41,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium bluetooth speaker from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 69.99,
+    "stock": 38,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium mechanical keyboard from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Gaming Mouse",
+    "category": "Electronics",
+    "price": 34.99,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium gaming mouse from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 29.99,
+    "stock": 47,
+    "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium usb-c hub from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Power Bank",
+    "category": "Electronics",
+    "price": 24.99,
+    "stock": 72,
+    "image": "https://images.unsplash.com/photo-1609592424841-9f7b4e2a3e3d?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium power bank from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Laptop Stand",
+    "category": "Electronics",
+    "price": 44.99,
+    "stock": 36,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium laptop stand from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Smartphone Tripod",
+    "category": "Electronics",
+    "price": 27.99,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium smartphone tripod from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "LED Desk Lamp",
+    "category": "Electronics",
+    "price": 32.99,
+    "stock": 43,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium led desk lamp from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Cotton T-Shirt",
+    "category": "Fashion",
+    "price": 19.99,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium cotton t-shirt from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Denim Jacket",
+    "category": "Fashion",
+    "price": 64.99,
+    "stock": 34,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium denim jacket from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Running Shoes",
+    "category": "Fashion",
+    "price": 74.99,
+    "stock": 48,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium running shoes from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Classic Sneakers",
+    "category": "Fashion",
+    "price": 54.99,
+    "stock": 61,
+    "image": "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium classic sneakers from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Backpack",
+    "category": "Fashion",
+    "price": 42.99,
+    "stock": 44,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium backpack from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Sunglasses",
+    "category": "Fashion",
+    "price": 22.99,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium sunglasses from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Leather Wallet",
+    "category": "Fashion",
+    "price": 29.99,
+    "stock": 39,
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium leather wallet from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Hoodie",
+    "category": "Fashion",
+    "price": 39.99,
+    "stock": 58,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium hoodie from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Wrist Watch",
+    "category": "Fashion",
+    "price": 89.99,
+    "stock": 31,
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium wrist watch from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Canvas Shoes",
+    "category": "Fashion",
+    "price": 37.99,
+    "stock": 46,
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium canvas shoes from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Coffee Maker",
+    "category": "Home",
+    "price": 89.99,
+    "stock": 33,
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium coffee maker from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Ceramic Mug Set",
+    "category": "Home",
+    "price": 18.99,
+    "stock": 66,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium ceramic mug set from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Table Clock",
+    "category": "Home",
+    "price": 21.99,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium table clock from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Cushion Set",
+    "category": "Home",
+    "price": 25.99,
+    "stock": 53,
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium cushion set from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Plant Pot",
+    "category": "Home",
+    "price": 16.99,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium plant pot from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Desk Organizer",
+    "category": "Home",
+    "price": 14.99,
+    "stock": 62,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium desk organizer from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Water Bottle",
+    "category": "Home",
+    "price": 20.99,
+    "stock": 57,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium water bottle from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Table Lamp",
+    "category": "Home",
+    "price": 49.99,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium table lamp from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Yoga Mat",
+    "category": "Fitness",
+    "price": 26.99,
+    "stock": 49,
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium yoga mat from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Dumbbell Set",
+    "category": "Fitness",
+    "price": 54.99,
+    "stock": 37,
+    "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium dumbbell set from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Resistance Bands",
+    "category": "Fitness",
+    "price": 15.99,
+    "stock": 69,
+    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium resistance bands from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Skipping Rope",
+    "category": "Fitness",
+    "price": 11.99,
+    "stock": 82,
+    "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium skipping rope from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Fitness Gloves",
+    "category": "Fitness",
+    "price": 17.99,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1584863231364-2edc166de3e3?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium fitness gloves from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Foam Roller",
+    "category": "Fitness",
+    "price": 23.99,
+    "stock": 51,
+    "image": "https://images.unsplash.com/photo-1591343395082-e120087004b4?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium foam roller from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Travel Neck Pillow",
+    "category": "Travel",
+    "price": 18.99,
+    "stock": 64,
+    "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium travel neck pillow from Cartify. Designed for everyday use with dependable quality and modern style."
+  },
+  {
+    "name": "Travel Backpack",
+    "category": "Travel",
+    "price": 59.99,
+    "stock": 42,
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=700&q=80",
+    "description": "Premium travel backpack from Cartify. Designed for everyday use with dependable quality and modern style."
+  }
+]
